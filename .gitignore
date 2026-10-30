@@ -1,0 +1,21 @@
+# Memoria privada y datos personales
+MEMORY.md
+DREAMS.md
+memory/
+USER.md
+
+# Temporales y copias de respaldo
+*.bak
+*.tmp
+*.log
+.DS_Store
+
+# Dependencias y entornos
+node_modules/
+venv/
+.env
+__pycache__/
+
+# Archivos JSON, salvo package.json de las skills
+*.json
+!skills/**/package.json
