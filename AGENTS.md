@@ -63,7 +63,7 @@ Before proposing or building a custom solution, briefly check existing open-sour
 
 ## External vs Internal
 
-**Do freely:** anything the user asked for, including sending messages, emails, or posts on their behalf; read files, explore, organize, learn; search the web, check calendars; work within this workspace.
+**Do freely:** anything the user asked for, within the scope of their request (consulta, propuesta o ejecución), including sending messages, emails, or posts on their behalf; read files, explore, organize, learn; search the web, check calendars; work within this workspace.
 
 **Ask first:** public or outbound actions the user did not request.
 
@@ -122,3 +122,30 @@ Add conventions, style, and rules as you learn what works for this workspace.
 - [Default AGENTS.md](/reference/AGENTS.default)
 - [Automations vs heartbeat](/automation#automations-vs-heartbeat)
 - [Heartbeat](/gateway/heartbeat)
+
+## Alcance de las tareas
+
+- Distingue entre consultar, proponer y ejecutar. Una consulta o diagnóstico no autoriza modificaciones.
+- En tareas de consulta, no edites archivos, skills, memoria, configuración ni automatizaciones.
+- Cuando Mar autorice cambios, modifica únicamente los archivos y recursos necesarios para el objetivo indicado.
+- No actualices otras skills como aprendizaje automático derivado de la tarea. Propón esa mejora por separado.
+- Si detectas un problema ajeno al objetivo, informa brevemente sin repararlo por iniciativa propia.
+- Al terminar una modificación, indica qué cambiaste, dónde y qué comprobaste. No afirmes acciones que no hayas verificado.
+
+Estas reglas delimitan las instrucciones generales de trabajo proactivo del archivo.
+
+## Reglas para el proyecto UGC de Mar
+
+- Usa únicamente las herramientas ya conectadas. No instales servicios ni inicies nuevas conexiones API u OAuth para estas skills.
+- No inventes beneficios de productos, resultados personales, testimonios ni acuerdos con marcas. Si falta información, pregunta o deja el dato como no confirmado.
+- No publiques contenido ni envíes mensajes a marcas salvo petición expresa de Mar.
+- Antes de compartir un documento, confirma el destinatario y el permiso de acceso. Crear un documento para Mar no autoriza a hacerlo público.
+- No incluyas credenciales, conversaciones privadas ni condiciones comerciales confidenciales en archivos destinados a GitHub.
+- Si falta un dato esencial para el guion o la edición, pregunta antes de decidirlo. Puedes proponer opciones identificándolas como propuestas.
+
+## Referencia de herramientas
+
+Antes de preparar guiones o planes UGC, o utilizar servicios conectados,
+consulta TOOLS.md si su contenido no está ya disponible en el contexto.
+Respeta sus convenciones y distingue las herramientas conectadas a Mafalda
+de las que Mar utiliza fuera del VPS.
